@@ -5,6 +5,7 @@
 2) https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html
 3) https://www.angela1c.com/projects/iris_project/downloading-iris/
 4) pandas - https://www.youtube.com/watch?v=vmEHCJofslg&ab_channel=KeithGalli
+5) jupter notebook - https://www.youtube.com/watch?v=HW29067qVWk&ab_channel=CoreySchafer
 
 References:
 1)https://www.idiap.ch/software/bob/docs/bob/docs/stable/example.html
