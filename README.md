@@ -1,7 +1,13 @@
 # pands_project
-#Author: Lais Coletta
+# Author: Lais Coletta
 
-1) The Iris flower data set or Fisher’s Iris data set is a multivariate data set introduced by Sir Ronald Aylmer Fisher (1936) as an example of discriminant analysis. It is sometimes called Anderson’s Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. The dataset consists of 50 samples from each of three species of Iris flowers (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample, they are the length and the width of sepal and petal, in centimeters. Based on the combination of the four features, Fisher developed a linear discriminant model to distinguish the species from each other.
+## Iris flower data set
+
+According to Wikipedia, the Iris flower data set or Fisher’s Iris data set is data set created by the british statistician and biologist Ronald Fisher in 1936. <i> It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. The dataset consists of 50 samples from each of three species of Iris flowers (Iris setosa, Iris virginica and Iris versicolor).  Four features were measured from each sample, they are the length and the width of sepal and petal, in centimeters. Based on the combination of the four features, Fisher developed a linear discriminant model to distinguish the species from each other </i> [1].
+
+This data set is publicly available to use and is commonly used by beginners in the area of Data Science and Machine Learning. It consists of a set of 150 records under 5 attributes — Sepal length, Sepal width, Petal length, Petal width and Class-Labels(Species).
+
+[1] https://en.wikipedia.org/wiki/Iris_flower_data_set#:~:text=The%20Iris%20flower%20data%20set,example%20of%20linear%20discriminant%20analysis.
 2) https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html
 3) https://www.angela1c.com/projects/iris_project/downloading-iris/
 4) pandas - https://www.youtube.com/watch?v=vmEHCJofslg&ab_channel=KeithGalli
