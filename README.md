@@ -12,6 +12,7 @@ This data set is publicly available to use and is commonly used by beginners in 
 3) https://www.angela1c.com/projects/iris_project/downloading-iris/
 4) pandas - https://www.youtube.com/watch?v=vmEHCJofslg&ab_channel=KeithGalli
 5) jupter notebook - https://www.youtube.com/watch?v=HW29067qVWk&ab_channel=CoreySchafer
+6) https://medium.com/analytics-vidhya/exploratory-data-analysis-iris-dataset-4df6f045cda#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImNlYzEzZGViZjRiOTY0Nzk2ODM3MzYyMDUwODI0NjZjMTQ3OTdiZDAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NDk1Mjk3ODMsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNTA3OTI5OTUyMjAxNzc4ODU5MyIsImVtYWlsIjoibGFpc2NvbGV0dGFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsIm5hbWUiOiJMYcOtcyBDb2xldHRhIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hLS9BT2gxNEdoSDFMNVViaUxGZ25XeV9VZWxEanVLYnJ4RWt4cGlaTTF5RWprckN3PXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ikxhw61zIiwiZmFtaWx5X25hbWUiOiJDb2xldHRhIiwiaWF0IjoxNjQ5NTMwMDgzLCJleHAiOjE2NDk1MzM2ODMsImp0aSI6ImYxOGRjMmUyNjY0NWI3NjM0YTQ0MTg5MjAxYWI1YWRmN2E5MGFkMmEifQ.fauCijCDuTiHyMduxb_tXJX4uMBtwEOERkdSLah9d4vz5A4oX0Y9U1kAKp2iXyFb75TL4luS8Xd5BJl3uQSvDXFlKJQzOYlGNpVoYD1tNDxv_sxBn1U0D-2Wn3ZXcLYaIEq176EQUWEHoFKToc4LELIp-FX8RsFQRtr5oCgIkHruGagbLzGJ6iGRmhrgVxdCKs3mpL5n3-gcPNDj46NH1gGKWsl86DMHmXaZkRMqZZ2nx7WFAfV7xSQmKOb3VA-cG7p2-q7m-hJMmGMCxo-mf0DbH5_Qq5AHDbyjN6OQAVaieGcvKaiS9_vGLM3UmEFvRS2M_jXsUm6pdWa4rdvERg
 
 References:
 1)https://www.idiap.ch/software/bob/docs/bob/docs/stable/example.html
@@ -19,18 +20,12 @@ References:
 
 
 Project plan:
-30/03 - Start understanding what Fisher's data set is about and import files
-31/03 - What programs and sources do I need to execute it (pandas?)
-05/04 - Work on the other subject
-06/04 - Commit first file (analysis)
-07/04
-08/04
-09/04 - Commit second file (break analysis into parts)
-12/0 -
-13/04
-14/04
-15/04
-18/04
+
+10/04 - Jupyter graphs
+12/04 - Jupyter graphs
+13/04 - Jupyter graphs
+15/04 - Organise code in VS code
+18/04 
 19/04
 21/04
 22/04
