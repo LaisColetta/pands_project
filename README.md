@@ -8,6 +8,9 @@ According to Wikipedia, the Iris flower data set or Fisher’s Iris data set is 
 This data set is publicly available to use and is commonly used by beginners in the area of Data Science and Machine Learning. It consists of a set of 150 records under 5 attributes — Sepal length, Sepal width, Petal length, Petal width and Class-Labels(Species).
 
 [1] https://en.wikipedia.org/wiki/Iris_flower_data_set#:~:text=The%20Iris%20flower%20data%20set,example%20of%20linear%20discriminant%20analysis.
+
+## pandas_project
+I developed this data analysis based on the data available on the internet and 
 2) https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html
 3) https://www.angela1c.com/projects/iris_project/downloading-iris/
 4) pandas - https://www.youtube.com/watch?v=vmEHCJofslg&ab_channel=KeithGalli
@@ -21,15 +24,12 @@ References:
 
 Project plan:
 
-10/04 - Jupyter graphs
-12/04 - Jupyter graphs
-13/04 - Jupyter graphs
-15/04 - Organise code in VS code
-18/04 
-19/04
-21/04
-22/04
-26/04
+
+18/04 - Finish boxplots and analysis
+19/04 - Organise code VS code
+21/04 - Organise code VS code
+22/04 - Organise ReadMe
+26/04 - Organise ReadMe
 27/04
 28/04
 29/04
