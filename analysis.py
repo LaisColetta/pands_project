@@ -18,7 +18,6 @@ plt.legend(labels)
 plt.title('Comparison of features sizes')
 plt.xlabel("Attributes in mm")
 plt.ylabel("Count")
-plt.show
 plt.savefig('Comparison of features sizes')
 
 #create subplots for each attribute
@@ -43,8 +42,6 @@ plt.subplots_adjust(left=0.1,
                     top=0.9, 
                     wspace=0.4, 
                     hspace=0.4)
-
-plt.show()
 plt.savefig('Histogram of each variable')
 
 #create a more detailed version of the previous histogram subplots. Highlighting the species inside each attribute by color
@@ -63,7 +60,6 @@ for col, ax in zip(iris.columns[:4], axs.flat):
     sns.histplot(data=iris, x=col, hue='species', common_norm=False, legend=ax==axs[0,0], ax=ax)
 #tight_layout automatically adjusts subplot params so that the subplot(s) fits in to the figure area.
 plt.tight_layout()
-plt.show()
 plt.savefig('Histogram of each variable by species')
 
 #scatter plots
@@ -79,7 +75,6 @@ box = ax.get_position()
 ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
 # Put a legend to the right of the current axis
 ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
-plt.show()
 plt.savefig('Scatter plot comparing sepal width vs leght')
 
 #comparing petal lenght and width
@@ -89,6 +84,5 @@ ax = plt.subplot(111)
 box = ax.get_position()
 ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
 ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
-plt.show()
 plt.savefig('Scatter plot comparing petal width and lenght')
 
