@@ -10,27 +10,22 @@ This data set is publicly available to use and is commonly used by beginners in 
 [1] https://en.wikipedia.org/wiki/Iris_flower_data_set#:~:text=The%20Iris%20flower%20data%20set,example%20of%20linear%20discriminant%20analysis.
 
 ## pandas_project
-I developed this data analysis based on the data available on the internet and 
-2) https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html
-3) https://www.angela1c.com/projects/iris_project/downloading-iris/
-4) pandas - https://www.youtube.com/watch?v=vmEHCJofslg&ab_channel=KeithGalli
-5) jupter notebook - https://www.youtube.com/watch?v=HW29067qVWk&ab_channel=CoreySchafer
-6) https://medium.com/analytics-vidhya/exploratory-data-analysis-iris-dataset-4df6f045cda#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImNlYzEzZGViZjRiOTY0Nzk2ODM3MzYyMDUwODI0NjZjMTQ3OTdiZDAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NDk1Mjk3ODMsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNTA3OTI5OTUyMjAxNzc4ODU5MyIsImVtYWlsIjoibGFpc2NvbGV0dGFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsIm5hbWUiOiJMYcOtcyBDb2xldHRhIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hLS9BT2gxNEdoSDFMNVViaUxGZ25XeV9VZWxEanVLYnJ4RWt4cGlaTTF5RWprckN3PXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ikxhw61zIiwiZmFtaWx5X25hbWUiOiJDb2xldHRhIiwiaWF0IjoxNjQ5NTMwMDgzLCJleHAiOjE2NDk1MzM2ODMsImp0aSI6ImYxOGRjMmUyNjY0NWI3NjM0YTQ0MTg5MjAxYWI1YWRmN2E5MGFkMmEifQ.fauCijCDuTiHyMduxb_tXJX4uMBtwEOERkdSLah9d4vz5A4oX0Y9U1kAKp2iXyFb75TL4luS8Xd5BJl3uQSvDXFlKJQzOYlGNpVoYD1tNDxv_sxBn1U0D-2Wn3ZXcLYaIEq176EQUWEHoFKToc4LELIp-FX8RsFQRtr5oCgIkHruGagbLzGJ6iGRmhrgVxdCKs3mpL5n3-gcPNDj46NH1gGKWsl86DMHmXaZkRMqZZ2nx7WFAfV7xSQmKOb3VA-cG7p2-q7m-hJMmGMCxo-mf0DbH5_Qq5AHDbyjN6OQAVaieGcvKaiS9_vGLM3UmEFvRS2M_jXsUm6pdWa4rdvERg
 
-References:
-1)https://www.idiap.ch/software/bob/docs/bob/docs/stable/example.html
-2)youtube video - Python Data Analysis with Iris Dataset | Data Science, plotting & graphing
+This project was developed based on google research and the knowledge gained in this course, mainly in the class in week 08 when we learned about building plots. All the references used in this project are inserted as comments in the file analysis.py and mentioned in the text in the jupyter notebook analysis.ipynb. To prepare to this project, I have also watched a few tutorials on youtube that are listed bellow:
+
+1) pandas - https://www.youtube.com/watch?v=vmEHCJofslg&ab_channel=KeithGalli
+2) jupter notebook - https://www.youtube.com/watch?v=HW29067qVWk&ab_channel=CoreySchafer
+3) youtube video - Python Data Analysis with Iris Dataset | Data Science, plotting & graphing
 
 
-Project plan:
+### Project plan:
+I have started researching for this project on march 26th and decided to create a jupyter notebook to describe each step while analysing the data. There are many sources on the internet that discuss about iris dataset, but most of them are focused on machine learning. It has been a very interesting journey learning data analysis using python and understanding the modules that have to be imported to improve the graphs readability.
 
 
-18/04 - Finish boxplots and analysis
-19/04 - Organise code VS code
 21/04 - Organise code VS code
-22/04 - Organise ReadMe
+22/04 - Organise code VS code
 26/04 - Organise ReadMe
-27/04
+27/04 - Add plots if necessary and explanation on both, code and 
 28/04
 29/04
 
