@@ -53,6 +53,7 @@ iris = sns.load_dataset('iris')
 #make the 'species' column categorical to fix the order
 #'A categorical variable (sometimes called a nominal variable) is one that has two or more categories'. source: https://pandas.pydata.org/pandas-docs/version/0.23/generated/pandas.Categorical.html
 iris['species'] = pd.Categorical(iris['species'])
+
 fig, axs = plt.subplots(2, 2, figsize=(12, 6))
 #for loop through every column (0 to 4)
 for col, ax in zip(iris.columns[:4], axs.flat):
