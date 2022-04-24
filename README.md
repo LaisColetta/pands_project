@@ -21,6 +21,8 @@ On the 26th of March, I started the project by exploring some statistical analys
 
 I later found out that the reason why this Iris dataset became a test case for classification methods in the machine learning and the pattern recognition field is because one class of the three Iris species in the data set is linearly separable from the other two classes while the other two classes are not linearly separable from each other.
 
+After I considered my analysis finished and I was satisfied with the variaty of plots I used in the project, I started looking at other analysis and what I could and what I would prefer to not add into my analysis. This was labed as the 'Other Iris Dataset Analysis'.
+
 
 
 26/04- Finish other analysis
