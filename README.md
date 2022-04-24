@@ -22,12 +22,11 @@ This project was developed based on google research and the knowledge gained in 
 I have started researching for this project on march 26th and decided to create a jupyter notebook to describe each step while analysing the data. There are many sources on the internet that discuss about iris dataset, but most of them are focused on machine learning. It has been a very interesting journey learning data analysis using python and understanding the modules that have to be imported to improve the graphs readability.
 
 
-21/04 - Organise code VS code
-22/04 - Organise code VS code
-26/04 - Organise ReadMe
-27/04 - Add plots if necessary and explanation on both, code and 
-28/04
-29/04
+
+26/04- Finish other analysis
+27/04 - Write conclusion
+28/04 - Finish Read me and analysis.py
+29/04 - reviewing and exporting
 
 Summary and conclusions
 
@@ -55,6 +54,5 @@ There is not such a large difference between the sepal lengths of the three Iris
 From the summary statistics of the sepal and petal measurements by class type it would appear that the differences between the Iris Setosa and the other two species is more pronounced that any other differences between the three classes.
 
 The following image shows the frequency histogram that Fisher used and while the plots in this project only show distributions for a single measurement variable at a time, it is interesting to see they look familiar!.
-
 
 Correlation shows whether a linear relationship between variables exists and shows if one variable tends to occur with large or small values of another variable. The scatter plot shows quite a strong positive relationship overall between the petal length and petal width measurements. The relationship between petal length and petal width is not as strong for the Iris Setosa as with the other two species. The correlation matrix showed a strong relationship between sepal length and sepal width for the Iris Setosa only and a strong relationship between the petal length and petal widths for the Iris Versicolor only. However the relationship between the petal lengths and sepal lengths is very strong for the Iris Virginica with Iris Versicolor being only a little bit weaker.
