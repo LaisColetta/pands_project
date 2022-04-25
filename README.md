@@ -9,6 +9,10 @@ This data set is publicly available to use and is commonly used by beginners in 
 
 [1] https://en.wikipedia.org/wiki/Iris_flower_data_set#:~:text=The%20Iris%20flower%20data%20set,example%20of%20linear%20discriminant%20analysis.
 
+![Screenshot 2022-04-25 at 17 17 26](https://user-images.githubusercontent.com/99751201/165130751-f5ba347f-d86a-428f-94cf-750e8cd55f79.png)
+
+Image source: http://rstudio-pubs-static.s3.amazonaws.com/450733_9a472ce9632f4ffbb2d6175aaaee5be6.html
+
 ## pandas_project
 
 This project was developed based on google research and the knowledge gained in this course, mainly in the class on the week 08 when we learned about more about plots. All the references used in this project are inserted as comments in the file analysis.py and/or mentioned in the text in the jupyter notebook analysis.ipynb. To prepare for this project, I worked through the Python documentation manuals of the Pandas, Matplotlib and Seaborn modules and I have also watched a few tutorials on youtube that are listed bellow:
