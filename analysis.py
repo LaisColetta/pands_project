@@ -16,7 +16,7 @@ plt.hist([df['sepal_length'], df['sepal_width'], df['petal_length'], df['petal_w
 labels = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
 plt.legend(labels)
 plt.title('Comparison of features sizes')
-plt.xlabel("Attributes in mm")
+plt.xlabel("Attributes in cm")
 plt.ylabel("Count")
 plt.savefig('Comparison of features sizes')
 
@@ -46,8 +46,6 @@ plt.savefig('Histogram of each variable')
 
 #create a more detailed version of the previous histogram subplots. Highlighting the species inside each attribute by color
 #reference: https://stackoverflow.com/questions/67300148/best-fit-to-a-histogramplot-iris
-#spicy.stats is a sub-package used for probability and statistical operations
-from scipy.stats import norm
 # create variable that loads iris data set from the online repository (requires internet)
 iris = sns.load_dataset('iris')
 #make the 'species' column categorical to fix the order
