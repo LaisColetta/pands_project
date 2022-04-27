@@ -27,10 +27,10 @@ with open ("summary.txt", 'wt') as f:
 plt.hist([df['sepal_length'], df['sepal_width'], df['petal_length'], df['petal_width']])
 labels = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
 plt.legend(labels)
-plt.title('Comparison of features sizes')
+plt.title('Comparison of features size')
 plt.xlabel("Attributes in cm")
 plt.ylabel("Count")
-plt.savefig('Comparison of features sizes')
+plt.savefig('Comparison of features size')
 
 #create subplots for each attribute
 #plt.subplots() is a function that returns a tuple containing a figure and axes objects, 'unpacking' this tuple into the variables fig and ax. (source: https://stackoverflow.com/questions/34162443/why-do-many-examples-use-fig-ax-plt-subplots-in-matplotlib-pyplot-python )
