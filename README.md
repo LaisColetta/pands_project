@@ -25,9 +25,9 @@ This project was developed based on google research and the knowledge gained in 
 
 On the 26th of March, I started the project by exploring some statistical analysis that could be done through tables and looking at the type of data I was working with. There are a lot of projects that use the Iris data set in Machine Learning and most of the analyses I found were being used in that context. 
 
-I later found out that the reason why this Iris dataset became a test case for classification methods in the machine learning and the pattern recognition field is because one class of the three Iris species in the data set is linearly separable from the other two classes while the other two classes are not linearly separable from each other.
+I later found out that the reason why this Iris data set became so popular is because it is a small set of date, easy to test some concepts in machine learning and you can visualize the results quickly and easier. Also, it is a test case for classification methods and the pattern recognition field as one class of the three Iris species in the data set is linearly separable from the other two classes.
 
-After I considered my analysis finished and I was satisfied with the variety of plots I used in the project, I started looking at other analyses and what I could and what I would prefer to not add to my analysis. This was labeled as the 'Other Iris Dataset Analysis'.
+After I considered the analysis finished and I was satisfied with the variety of plots I used in the project, I started looking at other analyses and what I could and what I would prefer to not add to my analysis. This was labeled as the 'Other Iris Dataset Analysis'.
 
 27/04 - Write conclusion
 28/04 - Finish Read me and analysis.py
