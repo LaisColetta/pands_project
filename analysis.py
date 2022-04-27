@@ -1,5 +1,5 @@
-# Program that analyses the Iris date set
-# Author; Lais Coletta
+# Program that analyses Iris data set based on the tasks in the project. Analysis outside the scope of the mandatory tasks for this project are inside the jupyter notebook in this folder.
+# Author: Lais Coletta
 
 
 import numpy as np
@@ -10,8 +10,20 @@ import matplotlib.pyplot as plt
 #creating the variable 'df' for the data frame 'Iris_csv' and read the csv file using the read () function:
 df = pd.read_csv('iris_csv.csv')
 
+#First task: "Output a summary of each variable to a single text file"
+#use function 'with open' as shown in lecture 'pands 7.1 files' to create and write on the file. wt is to open the txt file in a writing mode
+with open ("summary.txt", 'wt') as f:
+    #write a title and add space between data
+    f.write ("Summary of each variable in Iris Data set \n\n")
+    #write describe function which is a summary function in pandas
+    f.write (str(df.describe()))
+    #use the function value_counts to an overview of the data distribution between species
+    f.write ("\n\n Data distribution \n\n")
+    f.write (str(df.species.value_counts()))
+
 #Histograms
-#histogram that compares the attributes counts x sizes separated by species
+#Second task: Saves a histogram of each variable to png files
+#create a histogram that compares the attributes counts x sizes separated by species
 plt.hist([df['sepal_length'], df['sepal_width'], df['petal_length'], df['petal_width']])
 labels = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
 plt.legend(labels)
@@ -62,18 +74,18 @@ plt.tight_layout()
 plt.savefig('Histogram of each variable by species')
 
 #scatter plots
+#Third task: Outputs a scatter plot of each pair of variables.
 #create scatter plots of each pair of variables
-Iris = sns.load_dataset('iris')
-
 #comparing sepal lenght and width
 plt.title('Comparison between species based on sepal length and width', y=1.06)
 sns.scatterplot(df['sepal_length'],df['sepal_width'],hue =df['species'],s=50)
 ax = plt.subplot(111)
-# Shrinking plot width by 20% to fit legend box outside the axis of the figure (source: https://stackoverflow.com/questions/4700614/how-to-put-the-legend-outside-the-plot-in-matplotlib)
+#shrinking plot width by 20% to fit legend box outside the axis of the figure (source: https://stackoverflow.com/questions/4700614/how-to-put-the-legend-outside-the-plot-in-matplotlib)
 box = ax.get_position()
 ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
-# Put a legend to the right of the current axis
+#put a legend to the right of the current axis
 ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+#save plot in png
 plt.savefig('Scatter plot comparing sepal width vs leght')
 
 #comparing petal lenght and width
@@ -84,4 +96,3 @@ box = ax.get_position()
 ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
 ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 plt.savefig('Scatter plot comparing petal width and lenght')
-
