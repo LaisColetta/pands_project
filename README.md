@@ -17,22 +17,16 @@ Image source: http://rstudio-pubs-static.s3.amazonaws.com/450733_9a472ce9632f4ff
 
 ## pandas_project
 
-This project was developed based on google research and the knowledge gained in this course, mainly in the class on the week 08 when we learned about more about plots. All the references used in this project are inserted as comments in the file analysis.py and/or mentioned in the text in the jupyter notebook analysis.ipynb. To prepare for this project, I worked through the Python documentation manuals of the Pandas, Matplotlib and Seaborn modules and I have also watched a few tutorials on youtube that are listed bellow:
+This project was developed based on google research and the knowledge gained in this course, mainly in the class on the week 08 when we learned about more about plots. All the references used in this project are inserted as comments in the file analysis.py and/or mentioned in the text in the jupyter notebook analysis.ipynb. The parts of the project that I copied from another source are in italic format with the reference in the following line.To prepare for this project, I worked through the Python documentation manuals of the Pandas, Matplotlib and Seaborn modules and I have also watched a few tutorials on youtube that are listed bellow:
 
 1) pandas - https://www.youtube.com/watch?v=vmEHCJofslg&ab_channel=KeithGalli
 2) jupter notebook - https://www.youtube.com/watch?v=HW29067qVWk&ab_channel=CoreySchafer
 3) youtube video - Python Data Analysis with Iris Dataset | Data Science, plotting & graphing
 
-On the 26th of March, I started the project by exploring some statistical analysis that could be done through tables and looking at the type of data I was working with. There are a lot of projects that use the Iris data set in Machine Learning and most of the analyses I found were being used in that context. 
+On the 26th of March, I started the project by exploring some statistical analysis that could be done through tables and looking at the type of data I was working with. There are a lot of projects that use the Iris data set in Machine Learning and most of the analyses I found were being used in that context.  I later discovered that the reason why this Iris data set became so popular in machine learning is because it is a small set of date, quick to deal with and easy to test classification and the pattern recognition methods, as one class of the three Iris species in the data set is linearly separable from the other two classes.
 
-I later found out that the reason why this Iris data set became so popular is because it is a small set of date, easy to test some concepts in machine learning and you can visualize the results quickly and easier. Also, it is a test case for classification methods and the pattern recognition field as one class of the three Iris species in the data set is linearly separable from the other two classes.
-
-After I considered the analysis finished and I was satisfied with the variety of plots I used in the project, I started looking at other analyses and what I could and what I would prefer to not add to my analysis. This was labeled as the 'Other Iris Dataset Analysis'.
+After I considered the analysis finished and I was satisfied with the variety of plots I used in the project taken from the seaborn, pandas and matplot manuals, I started looking at other analyses and what I could and what I would prefer not to add to my analysis. This was labeled as the 'Other Iris Dataset Analysis' in the jupyter notebook.
 
 27/04 - Write conclusion
 28/04 - Finish Read me and analysis.py
 29/04 - reviewing and exporting
-
-## Summary and conclusions
-
-Much of modern statistical and machine learning is based upon the work of R.A Fisher in the 20th century and he is often referred to as the father of modern statistics. Fisher developed the linear discriminant model based on the combination of the four measurement features in the Iris dataset. The dataset became a test case for classification methods in the machine learning and the pattern recognition field because one class of the three Iris species in the data set is linearly separable from the other two classes while the other two classes are not linearly separable from each other.
