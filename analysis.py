@@ -21,32 +21,31 @@ with open ("summary.txt", 'wt') as f:
     f.write ("\n\n Data distribution \n\n")
     f.write (str(df.species.value_counts()))
 
-#Histograms
 #Second task: Saves a histogram of each variable to png files
 #create a histogram that compares the attributes counts x sizes separated by species
 plt.hist([df['sepal_length'], df['sepal_width'], df['petal_length'], df['petal_width']])
-labels = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+labels = ['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']
 plt.legend(labels)
 plt.title('Comparison of features size')
-plt.xlabel("Attributes in cm")
+plt.xlabel('Attributes in cm')
 plt.ylabel("Count")
 plt.savefig('Comparison of features size')
 
 #create subplots for each attribute
 #plt.subplots() is a function that returns a tuple containing a figure and axes objects, 'unpacking' this tuple into the variables fig and ax. (source: https://stackoverflow.com/questions/34162443/why-do-many-examples-use-fig-ax-plt-subplots-in-matplotlib-pyplot-python )
-#(2,2) in this function returns 4 graphs, 2 each row
+#(2,2) in this function returns 4 graphs, 2 each cell
 fig, ax = plt.subplots(2, 2, figsize=(8, 6))
 ax[0, 0].hist(df['sepal_length'])
-ax[0, 0].set_title('sepal_length')
+ax[0, 0].set_title('Sepal Length')
 
 ax[0, 1].hist(df['sepal_width'])
-ax[0, 1].set_title('sepal_width')
+ax[0, 1].set_title('Sepal Width')
 
 ax[1, 0].hist(df['petal_length'])
-ax[1, 0].set_title('petal_length')
+ax[1, 0].set_title('Petal Length')
 
 ax[1, 1].hist(df['petal_width'])
-ax[1, 1].set_title('petal_width')
+ax[1, 1].set_title('Petal Width')
 #setting the spacing between subplots (reference: https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.subplots_adjust.html)
 plt.subplots_adjust(left=0.1,
                     bottom=0.1, 
@@ -73,12 +72,12 @@ for col, ax in zip(iris.columns[:4], axs.flat):
 plt.tight_layout()
 plt.savefig('Histogram of each variable by species')
 
-#scatter plots
 #Third task: Outputs a scatter plot of each pair of variables.
-#create scatter plots of each pair of variables
-#comparing sepal lenght and width
+#create scatter plots of each pair of variables comparing sepal lenght and width
+#to add space between title and graphe use variable y
 plt.title('Comparison between species based on sepal length and width', y=1.06)
-sns.scatterplot(df['sepal_length'],df['sepal_width'],hue =df['species'],s=50)
+#s variable is to change dots size
+sns.scatterplot(df['sepal_length'],df['sepal_width'],hue =df['species'],s=40)
 ax = plt.subplot(111)
 #shrinking plot width by 20% to fit legend box outside the axis of the figure (source: https://stackoverflow.com/questions/4700614/how-to-put-the-legend-outside-the-plot-in-matplotlib)
 box = ax.get_position()
@@ -90,7 +89,7 @@ plt.savefig('Scatter plot comparing sepal width vs leght')
 
 #comparing petal lenght and width
 plt.title('Comparison between species based on petal lenght and width', y=1.06)
-sns.scatterplot(df['petal_length'], df['petal_width'], hue = df['species'], s= 50)
+sns.scatterplot(df['petal_length'], df['petal_width'], hue = df['species'], s= 40)
 ax = plt.subplot(111)
 box = ax.get_position()
 ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
