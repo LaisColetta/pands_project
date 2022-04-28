@@ -8,11 +8,11 @@ import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 #creating the variable 'df' for the data frame 'Iris_csv' and read the csv file using the read () function:
-df = pd.read_csv('iris_csv.csv')
+df = pd.read_csv('irisdata_csv.csv')
 
 #First task: "Output a summary of each variable to a single text file"
 #use function 'with open' as shown in lecture 'pands 7.1 files' to create and write on the file. wt is to open the txt file in a writing mode
-with open ("summary.txt", 'wt') as f:
+with open ("Task 1: summary.txt", 'wt') as f:
     #write a title and add space between data
     f.write ("Summary of each variable in Iris Data set \n\n")
     #write describe function which is a summary function in pandas
@@ -29,7 +29,7 @@ plt.legend(labels)
 plt.title('Comparison of features size')
 plt.xlabel('Attributes in cm')
 plt.ylabel('Count')
-plt.savefig('Comparison of features size')
+plt.savefig('Task 2: Comparison of features size')
 
 #create subplots for each attribute
 #plt.subplots() is a function that returns a tuple containing a figure and axes objects, 'unpacking' this tuple into the variables fig and ax. (source: https://stackoverflow.com/questions/34162443/why-do-many-examples-use-fig-ax-plt-subplots-in-matplotlib-pyplot-python )
@@ -53,7 +53,7 @@ plt.subplots_adjust(left=0.1,
                     top=0.9, 
                     wspace=0.4, 
                     hspace=0.4)
-plt.savefig('Histogram of each variable')
+plt.savefig('Task 2: Histogram of each variable')
 
 #create a more detailed version of the previous histogram subplots. Highlighting the species inside each attribute by color
 #reference: https://stackoverflow.com/questions/67300148/best-fit-to-a-histogramplot-iris
@@ -69,7 +69,7 @@ for col, ax in zip(iris.columns[:4], axs.flat):
     sns.histplot(data=iris, x=col, hue='species', common_norm=False, legend=ax==axs[0,0], ax=ax)
 #tight_layout automatically adjusts subplot params so that the subplot(s) fits in to the figure area.
 plt.tight_layout()
-plt.savefig('Histogram of each variable by species')
+plt.savefig('Task 2: Histogram of each variable by species')
 
 #Third task: Outputs a scatter plot of each pair of variables.
 #create scatter plots of each pair of variables comparing sepal lenght and width
@@ -84,7 +84,7 @@ ax.set_position([box.x0, box.y0, box.width * 0.9, box.height])
 #put a legend to the right of the current axis
 ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 #save plot in png
-plt.savefig('Scatter plot comparing sepal width vs leght')
+plt.savefig('Task 3: Scatter plot comparing sepal width vs leght')
 
 #comparing petal lenght and width
 plt.title('Comparison between species based on petal lenght and width', y=1.06)
@@ -93,4 +93,4 @@ ax = plt.subplot(111)
 box = ax.get_position()
 ax.set_position([box.x0, box.y0, box.width * 0.9, box.height])
 ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
-plt.savefig('Scatter plot comparing petal width and lenght')
+plt.savefig('Task 3: Scatter plot comparing petal width and lenght')
