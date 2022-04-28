@@ -28,7 +28,7 @@ labels = ['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']
 plt.legend(labels)
 plt.title('Comparison of features size')
 plt.xlabel('Attributes in cm')
-plt.ylabel("Count")
+plt.ylabel('Count')
 plt.savefig('Comparison of features size')
 
 #create subplots for each attribute
@@ -57,12 +57,11 @@ plt.savefig('Histogram of each variable')
 
 #create a more detailed version of the previous histogram subplots. Highlighting the species inside each attribute by color
 #reference: https://stackoverflow.com/questions/67300148/best-fit-to-a-histogramplot-iris
-# create variable that loads iris data set from the online repository (requires internet)
+#create variable that loads iris data set from the online repository (requires internet)
 iris = sns.load_dataset('iris')
 #make the 'species' column categorical to fix the order
-#'A categorical variable (sometimes called a nominal variable) is one that has two or more categories'. source: https://pandas.pydata.org/pandas-docs/version/0.23/generated/pandas.Categorical.html
+#'A categorical variable (sometimes called a nominal variable) is one that has two or more categories'. reference: https://pandas.pydata.org/pandas-docs/version/0.23/generated/pandas.Categorical.html
 iris['species'] = pd.Categorical(iris['species'])
-
 fig, axs = plt.subplots(2, 2, figsize=(12, 6))
 #for loop through every column (0 to 4)
 for col, ax in zip(iris.columns[:4], axs.flat):
@@ -81,7 +80,7 @@ sns.scatterplot(df['sepal_length'],df['sepal_width'],hue =df['species'],s=40)
 ax = plt.subplot(111)
 #shrinking plot width by 20% to fit legend box outside the axis of the figure (source: https://stackoverflow.com/questions/4700614/how-to-put-the-legend-outside-the-plot-in-matplotlib)
 box = ax.get_position()
-ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
+ax.set_position([box.x0, box.y0, box.width * 0.9, box.height])
 #put a legend to the right of the current axis
 ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 #save plot in png
@@ -92,6 +91,6 @@ plt.title('Comparison between species based on petal lenght and width', y=1.06)
 sns.scatterplot(df['petal_length'], df['petal_width'], hue = df['species'], s= 40)
 ax = plt.subplot(111)
 box = ax.get_position()
-ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
+ax.set_position([box.x0, box.y0, box.width * 0.9, box.height])
 ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 plt.savefig('Scatter plot comparing petal width and lenght')
