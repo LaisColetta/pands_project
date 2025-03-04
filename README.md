@@ -10,7 +10,7 @@ The Iris dataset is widely used in Data Science and Machine Learning, often as a
 For further reading:  
 [Wikipedia - Iris Flower Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set#:~:text=The%20Iris%20flower%20data%20set,example%20of%20linear%20discriminant%20analysis.)
 
-![Iris Flower](https://upload.wikimedia.org/wikipedia/commons/0/0e/Iris_versicolor_3.jpg)
+![Iris Flower](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimmGMPw0jM_8xjndEHLKj7Hf5fngvWFOJ6_V4jiFb-U0sCHej3aTu08htye1_BgUBGKfnszHoeI_OLLZVf6NjwaG9oDYyOqkjdjeDajd3zg8VuCLVTzDM8hO2XEnarwQeM-CLvFgAwfNX53GR_HPatNPkUH7-7FAoNgFKjw7ujB9LwW5piE8GIPLjJHw/s722/irir_flowers.png)
 
 ## Project Development
 
@@ -29,40 +29,17 @@ Tutorials:
 ### Key Insights
 The Iris dataset's popularity in machine learning arises from its small size, ease of use, and its suitability for testing classification and pattern recognition methods. One of the key reasons it's so well-suited for classification tasks is that one of the species (Iris setosa) is linearly separable from the other two species in the dataset.
 
-## How to Run the Code
+## Conclusion
 
-### Clone the repository
-First, clone this repository to your local machine:
+This project focused on the statistical analysis of the Iris dataset, a well-known dataset widely used in data science and machine learning. The analysis began by examining the dataset’s structure, exploring correlations between features, and visualizing distributions to gain meaningful insights. The popularity of the Iris dataset in machine learning is attributed to its small size, efficiency in processing, and suitability for classification tasks. Notably, one of the species, *Iris setosa*, is linearly separable from the other two, making it an excellent candidate for evaluating classification algorithms.
 
-```bash
-git clone https://github.com/LaisColetta/pandas_project.git
-```
-### Install the necessary libraries
-Make sure all required libraries are installed by running the following:
+A variety of visualization techniques were applied using Seaborn, Pandas, and Matplotlib to effectively present the data and highlight key relationships. The analysis was carefully structured to ensure clarity and comprehensiveness. While additional methodologies were considered, the final selection of techniques was based on relevance and impact, as reflected in the section labeled *Other Iris Dataset Analysis* in the Jupyter notebook.
 
-```bash
-pip install -r requirements.txt
-```
+This project serves as a foundational exploration of statistical analysis and visualization techniques, reinforcing best practices in data exploration and presentation.
 
-### Launch Jupyter Notebook
-To open the project, start Jupyter Notebook:
-```bash
-jupyter notebook
-```
-This will open the Jupyter dashboard in your browser. Navigate to the analysis.ipynb file and open it.
+## References
 
-### Run the cells
-Inside the notebook, run the cells sequentially to perform the analysis. The output will include visualizations, statistical analysis, and model performance metrics.
-
-## User Manual
-This project does not include a user interface, as it is implemented in Jupyter Notebook, but you can follow these instructions to analyze the dataset and run the code:
-
-- Open the `analysis.ipynb` notebook in Jupyter.
-- The first few cells provide an overview of the dataset and its variables.
-- Follow the steps in the cells to explore the correlation between the input variables (sepal and petal dimensions) and the output (species).
-- Review the plots and the statistical analysis results in the subsequent cells.
-- Interpret the conclusions and insights at the end of the notebook.
-
-
-
+- **Pandas** - [Keith Galli Tutorial](https://www.youtube.com/watch?v=vmEHCJofslg&ab_channel=KeithGalli)  
+- **Jupyter Notebook** - [Corey Schafer Tutorial](https://www.youtube.com/watch?v=HW29067qVWk&ab_channel=CoreySchafer)  
+- **Python Data Analysis with Iris Dataset | Data Science, Plotting & Graphing** - [YouTube Video](https://www.youtube.com/watch?v=qgdhvPsbRHw)  
 
