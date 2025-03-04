@@ -1,32 +1,68 @@
-# pands_project
-# Author: Lais Coletta
+# Pandas Project  
+**Author:** Lais Coletta  
 
-## Iris flower data set
+## Overview
 
-According to Wikipedia, the Iris flower data set or Fisher’s Iris data set is a data set created by the british statistician and biologist Ronald Fisher in 1936. <i> It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. The dataset consists of 50 samples from each of three species of Iris flowers (Iris setosa, Iris virginica and Iris versicolor).  Four features were measured from each sample, they are the length and the width of sepal and petal, in centimeters. Based on the combination of the four features, Fisher developed a linear discriminant model to distinguish the species from each other </i> [1].
+This project explores the **Iris flower dataset**, a well-known dataset introduced by British statistician and biologist Ronald Fisher in 1936. The dataset contains 150 samples from three species of Iris flowers: **Iris setosa**, **Iris virginica**, and **Iris versicolor**. For each flower, four features were measured: the length and width of the sepal and petal (in centimeters). Fisher used this dataset to develop a linear discriminant model for distinguishing between the species based on these features.
 
-A linear discriminant model is a method to find a linear combination of features that characterizes or separates them. 
+The Iris dataset is widely used in Data Science and Machine Learning, often as an introductory dataset for classification problems. It consists of 150 records and five attributes: **Sepal length**, **Sepal width**, **Petal length**, **Petal width**, and **Species**.
 
-This data set is publicly available to use and is commonly used by beginners in the area of Data Science and Machine Learning. It consists of a set of 150 records under 5 attributes — Sepal length, Sepal width, Petal length, Petal width and Species.
+For further reading:  
+[Wikipedia - Iris Flower Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set#:~:text=The%20Iris%20flower%20data%20set,example%20of%20linear%20discriminant%20analysis.)
 
-[1] https://en.wikipedia.org/wiki/Iris_flower_data_set#:~:text=The%20Iris%20flower%20data%20set,example%20of%20linear%20discriminant%20analysis.
+![Iris Flower](https://upload.wikimedia.org/wikipedia/commons/0/0e/Iris_versicolor_3.jpg)
 
-![Screenshot 2022-04-25 at 17 17 26](https://user-images.githubusercontent.com/99751201/165130751-f5ba347f-d86a-428f-94cf-750e8cd55f79.png)
+## Project Development
 
-Image source: http://rstudio-pubs-static.s3.amazonaws.com/450733_9a472ce9632f4ffbb2d6175aaaee5be6.html
+The project was built based on Google research and knowledge gained in the course, particularly during Week 08 when we focused on plotting techniques. All references used in this project are included as comments in the `analysis.py` file and/or directly referenced within the Jupyter notebook `analysis.ipynb`. Any sections of the project copied from external sources are marked in *italic* with corresponding references.
 
-## pandas_project
+### Tools and Resources Used
+- **Pandas**: For data manipulation and analysis.
+- **Matplotlib** & **Seaborn**: For data visualization and plotting.
+- **Jupyter Notebook**: For organizing and presenting the analysis.
+  
+Tutorials:
+- [Pandas - Keith Galli](https://www.youtube.com/watch?v=vmEHCJofslg&ab_channel=KeithGalli)
+- [Jupyter Notebook - Corey Schafer](https://www.youtube.com/watch?v=HW29067qVWk&ab_channel=CoreySchafer)
+- [Python Data Analysis with Iris Dataset | Data Science, Plotting & Graphing](https://www.youtube.com/watch?v=qgdhvPsbRHw)
 
-This project was developed based on google research and the knowledge gained in this course, mainly in the class on the week 08 when we learned about more about plots. All the references used in this project are inserted as comments in the file analysis.py and/or mentioned in the text in the jupyter notebook analysis.ipynb. The parts of the project that I copied from another source are in italic format with the reference in the following line.To prepare for this project, I worked through the Python documentation manuals of the Pandas, Matplotlib and Seaborn modules and I have also watched a few tutorials on youtube that are listed bellow:
+### Key Insights
+The Iris dataset's popularity in machine learning arises from its small size, ease of use, and its suitability for testing classification and pattern recognition methods. One of the key reasons it's so well-suited for classification tasks is that one of the species (Iris setosa) is linearly separable from the other two species in the dataset.
 
-1) pandas - https://www.youtube.com/watch?v=vmEHCJofslg&ab_channel=KeithGalli
-2) jupter notebook - https://www.youtube.com/watch?v=HW29067qVWk&ab_channel=CoreySchafer
-3) youtube video - Python Data Analysis with Iris Dataset | Data Science, plotting & graphing
+## How to Run the Code
 
-On the 26th of March, I started the project by exploring some statistical analysis that could be done through tables and looking at the type of data I was working with. There are a lot of projects that use the Iris data set in Machine Learning and most of the analyses I found were being used in that context.  I later discovered that the reason why this Iris data set became so popular in machine learning is because it is a small set of date, quick to deal with and easy to test classification and the pattern recognition methods, as one class of the three Iris species in the data set is linearly separable from the other two classes.
+### Clone the repository
+First, clone this repository to your local machine:
 
-After I considered the analysis finished and I was satisfied with the variety of plots I used in the project taken from the seaborn, pandas and matplot manuals, I started looking at other analyses and what I could and what I would prefer not to add to my analysis. This was labeled as the 'Other Iris Dataset Analysis' in the jupyter notebook.
+```bash
+git clone https://github.com/LaisColetta/pandas_project.git
+```
+### Install the necessary libraries
+Make sure all required libraries are installed by running the following:
 
-27/04 - Write conclusion
-28/04 - Finish Read me and analysis.py
-29/04 - reviewing and exporting
+```bash
+pip install -r requirements.txt
+```
+
+### Launch Jupyter Notebook
+To open the project, start Jupyter Notebook:
+```bash
+jupyter notebook
+```
+This will open the Jupyter dashboard in your browser. Navigate to the analysis.ipynb file and open it.
+
+### Run the cells
+Inside the notebook, run the cells sequentially to perform the analysis. The output will include visualizations, statistical analysis, and model performance metrics.
+
+## User Manual
+This project does not include a user interface, as it is implemented in Jupyter Notebook, but you can follow these instructions to analyze the dataset and run the code:
+
+- Open the `analysis.ipynb` notebook in Jupyter.
+- The first few cells provide an overview of the dataset and its variables.
+- Follow the steps in the cells to explore the correlation between the input variables (sepal and petal dimensions) and the output (species).
+- Review the plots and the statistical analysis results in the subsequent cells.
+- Interpret the conclusions and insights at the end of the notebook.
+
+
+
+
